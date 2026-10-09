@@ -341,3 +341,43 @@ img {
   font-size: 15px;
   font-weight: normal;
 }
+
+/* Education */
+
+.education {
+  background: var(--background-light);
+}
+
+.education-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.education-date {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.education-content h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.education-content h4 {
+  color: var(--primary-light);
+  font-size: 17px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.education-content p {
+  color: var(--gray);
+}
+
+.education-content {
+  padding: 45px;
+}
