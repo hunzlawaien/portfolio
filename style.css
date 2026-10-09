@@ -304,3 +304,40 @@ img {
   color: var(--gray);
   font-size: 14px;
 }
+/* Skills */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+}
+
+.skill-card {
+  min-height: 140px;
+  padding: 25px 15px;
+  background: var(--card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.skill-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-4px);
+}
+
+.skill-card i {
+  color: var(--primary);
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.skill-card h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
