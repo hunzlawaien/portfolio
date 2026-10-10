@@ -44,4 +44,4 @@ portfolio/
 
 You can also use the Live Server extension in VS Code to preview the website while developing.
 
-Created by Hunzla Waien
+Created by Hunzla Waien.
